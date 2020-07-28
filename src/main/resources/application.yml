@@ -1,0 +1,15 @@
+server:
+  port: 9090
+
+# ffmpeg执行路径，为ffmpeg的安装目录
+ffmpeg.path: D:/ffmpeg/bin/ffmpeg.exe
+# 输出路径
+ffmpeg.url: rtmp://localhost:9081/live/
+# rtmp真实路径
+ffmpeg.realpath: rtmp://192.168.0.2:9081/live/
+
+artemis.host: 平台IP:443
+artemis.app_key: appKey
+artemis.app_secret: appSecret
+artemis.path: /artemis
+
